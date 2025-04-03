@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    margin-top: auto;
+    background: linear-gradient(to right, pink, white, pink);
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 3px pink;
+    font-size: 25px;
+}
+h1 {
+    animation: fadeIn 1s ease-in;
+    
+}
+h2 {
+    animation: fadeIn 1ms ease-in;
+}
+h3 {
+    animation: fadeIn 1s ease-in;
+    
+}
+h4 {
+    animation: fadeIn 1s ease-in;
+    font-size: 35px;
+}
+p {
+    animation: fadeIn 1s ease-in;
+    
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+img {
+    width: 35%;
+    animation: fadeIn 1s ease-in;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: pink;
+    padding: 2px;
+}
+#Unhas img {
+    width: 27%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 2px;
+    animation: fadeIn 1s ease-in;
+}
+#Unhas {
+    font-size: 35px;
+    text-shadow: pink;
+}
