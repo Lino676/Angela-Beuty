@@ -2,29 +2,32 @@ body {
     text-align: center;
     margin-top: auto;
     background: linear-gradient(to right, pink, white, pink);
-    padding: 0;
-    margin: 0;
+    padding: 50px;
+    margin: 50px;
     text-shadow: 2px 2px 3px pink;
     font-size: 25px;
+    font-family: cursive;
 }
 h1 {
     animation: fadeIn 1s ease-in;
-    
+    text-align: center;
 }
 h2 {
     animation: fadeIn 1ms ease-in;
+    text-align: center;
 }
 h3 {
     animation: fadeIn 1s ease-in;
-    
+    text-align: center;
 }
 h4 {
     animation: fadeIn 1s ease-in;
     font-size: 35px;
+    text-align: center;
 }
 p {
     animation: fadeIn 1s ease-in;
-    
+    text-align: center;
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
