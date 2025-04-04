@@ -1,55 +1,72 @@
 body {
     text-align: center;
-    margin-top: auto;
     background: linear-gradient(to right, pink, white, pink);
-    padding: 50px;
-    margin: 50px;
+    padding: 40px 10px;
+    margin: 0;
     text-shadow: 2px 2px 3px pink;
-    font-size: 25px;
+    font-size: 20px;
     font-family: cursive;
+    color: #333;
 }
 h1 {
     animation: fadeIn 1s ease-in;
     text-align: center;
+    text-shadow: 2px 2px 3px pink;
+    margin: 20px 0 10px;
 }
 h2 {
     animation: fadeIn 1ms ease-in;
     text-align: center;
+    text-shadow: 2px 2px 3px pink;
+    margin: 20px 0 10px;
 }
 h3 {
     animation: fadeIn 1s ease-in;
     text-align: center;
+    text-shadow: 2px 2px 3px pink;
+    margin: 20px 0 10px;
 }
 h4 {
     animation: fadeIn 1s ease-in;
-    font-size: 35px;
+    font-size: 2rem;
     text-align: center;
+    text-shadow: 2px 2px 3px pink;
+    margin: 20px 0 10px;
 }
 p {
     animation: fadeIn 1s ease-in;
     text-align: center;
+    color: #333;
+    text-shadow: 2px, 2px, 3px pink
 }
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
 img {
-    width: 35%;
+    width: 100%;
+    max-width: 300px;
     animation: fadeIn 1s ease-in;
-    border-style: solid;
-    border-radius: 100%;
-    border-color: pink;
-    padding: 2px;
+    border: 2px solid pink;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px auto;
 }
 #Unhas img {
-    width: 27%;
-    border-style: solid;
-    border-color: white;
+    width: 250px;
+    border: 2px solid white;
     border-radius: 20px;
-    padding: 2px;
+    padding: 5px;
     animation: fadeIn 1s ease-in;
 }
 #Unhas {
     font-size: 35px;
-    text-shadow: pink;
+    text-shadow: 2px, 2px, 3px pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+
 }
