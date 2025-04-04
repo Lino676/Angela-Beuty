@@ -53,11 +53,14 @@ img {
     margin: 10px auto;
 }
 #Unhas img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border: 2px solid white;
     border-radius: 20px;
     padding: 5px;
     animation: fadeIn 1s ease-in;
+    margin: 5px;
+    flex: 1 1 calc(33.33% - 20px);
 }
 #Unhas {
     font-size: 35px;
@@ -65,8 +68,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 900px;
 
+}
+#Unhas h3 {
+    width: 100%;
+    text-align: center;
 }
